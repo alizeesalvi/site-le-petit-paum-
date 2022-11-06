@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@500&display=swap");
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+}
+
+li {
+  justify-content: space-around;
+}
+li a {
+  text-decoration: none;
+}
+@media screen and (max-width: 767px) {
+  li {
+    width: 20%;
+  }
+}
+
+.bouton {
+  margin-top: 10px;
+  padding: 14px 25px;
+  border-radius: 10px;
+  background-color: #100c0c;
+  text-align: center;
+  color: white;
+}
+
+.button {
+  margin-top: 10px;
+  padding: 14px 25px;
+  border-radius: 20px;
+  background-color: #d04438;
+  text-align: center;
+}
+
+.logo {
+  width: 200px;
+}
+
+.loupe {
+  width: 30px;
+}
+
+.test_1 {
+  background-image: url("image/fond.png");
+  background-size: cover;
+  height: 100vh;
+  bottom: 0;
+}
+
+.test_2 {
+  width: 70%;
+  margin: auto;
+  padding-top: 350px;
+}
+@media screen and (max-width: 767px) {
+  .test_2 {
+    display: none;
+  }
+}
+
+.section1 {
+  color: white;
+}
+
+.all {
+  display: flex;
+  margin-top: 50px;
+}
+
+/*.section1 {
+    background-image: url('image/fond.png');
+    background-size: cover;
+    height: 100vh;
+    bottom: 0;
+}*/
+img {
+  width: 200px;
+}
+
+.searcharticle {
+  background-color: lightgrey;
+}
+
+.lyon {
+  margin: 70px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.lyon img {
+  width: 70px;
+}
+
+.block {
+  padding: 10px;
+  justify-content: space-around;
+  background-color: rgba(232, 198, 224, 0.93);
+  width: 250px;
+  height: 200px;
+  margin: 15px;
+}
+
+.section4 {
+  display: flex;
+  justify-content: space-between;
+}
+.section4 .retenir {
+  background-color: lightgrey;
+  border-radius: 10px;
+  text-align: center;
+  padding: 30px;
+  margin: 20px;
+}
+
+.nrj {
+  background-color: white;
+  border-radius: 10px;
+}
+
+.actu {
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.activites {
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.activites2 {
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.section5 {
+  background-color: #1a2c2e;
+  padding: 25px;
+  color: white;
+}
+
+.video {
+  display: flex;
+  justify-content: space-around;
+}
+@media screen and (max-width: 767px) {
+  .video {
+    flex-wrap: wrap;
+  }
+}
+
+.section6 {
+  text-align: center;
+  margin: 50px;
+}
+
+.fil {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.left {
+  margin: 15px;
+}
+
+.right {
+  margin: 15px;
+}
+
+.card {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: 0.3s;
+}
+
+.taille {
+  width: 100%;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.text {
+  text-align: center;
+}
+
+.guidesection {
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+}
+@media screen and (max-width: 767px) {
+  .guidesection {
+    flex-wrap: wrap;
+  }
+}
+
+.guide {
+  border-radius: 10px;
+  background-color: lightpink;
+}
+
+.newsletter {
+  border-radius: 10px;
+  background-color: lightgrey;
+}
+
+.w-60 {
+  width: 400px;
+  height: 400px;
+  padding: 50px;
+}
+
+footer {
+  background-color: #1a2c2e;
+  color: white;
+}
+
+.footer {
+  display: flex;
+}
+
+.droit {
+  display: flex;
+}/*# sourceMappingURL=main.css.map */

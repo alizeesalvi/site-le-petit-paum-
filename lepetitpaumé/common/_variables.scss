@@ -1,0 +1,9 @@
+$fonts : (
+    poppins : "Poppins",
+);
+
+@each $key, $value in $fonts{
+    .font-#{$key} {
+        font-family: $value, sans-serif;
+    }
+}
